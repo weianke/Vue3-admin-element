@@ -7,9 +7,10 @@
     text-color="#fff"
     router
     unique-opened
+    :collapse="!$store.getters.siderType"
   >
     <el-sub-menu
-      :index="item.id"
+      :index="item.path + ''"
       v-for="(item, index) in menuListData"
       :key="item.id"
     >
