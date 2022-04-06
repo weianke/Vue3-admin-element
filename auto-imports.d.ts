@@ -6,6 +6,8 @@ declare global {
   const ElBreadcrumb: typeof import('element-plus/es')['ElBreadcrumb']
   const ElBreadcrumbItem: typeof import('element-plus/es')['ElBreadcrumbItem']
   const ElButton: typeof import('element-plus/es')['ElButton']
+  const ElCard: typeof import('element-plus/es')['ElCard']
+  const ElCol: typeof import('element-plus/es')['ElCol']
   const ElContainer: typeof import('element-plus/es')['ElContainer']
   const ElDropdown: typeof import('element-plus/es')['ElDropdown']
   const ElDropdownItem: typeof import('element-plus/es')['ElDropdownItem']
@@ -18,6 +20,11 @@ declare global {
   const ElMain: typeof import('element-plus/es')['ElMain']
   const ElMenu: typeof import('element-plus/es')['ElMenu']
   const ElMenuItem: typeof import('element-plus/es')['ElMenuItem']
+  const ElRow: typeof import('element-plus/es')['ElRow']
   const ElSubMenu: typeof import('element-plus/es')['ElSubMenu']
+  const ElSwitch: typeof import('element-plus/es')['ElSwitch']
+  const ElTable: typeof import('element-plus/es')['ElTable']
+  const ElTableColumn: typeof import('element-plus/es')['ElTableColumn']
+  const ElTableItem: typeof import('element-plus/es')['ElTableItem']
 }
 export {}
