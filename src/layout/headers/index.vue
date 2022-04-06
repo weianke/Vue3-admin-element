@@ -3,7 +3,11 @@
     <Hamburger />
     <Breadcrumb />
 
-    <div class="navbar-right"><Avatar /></div>
+    <div class="navbar-right">
+      <Driver class="navbar-item" />
+      <screen-full class="navbar-item" />
+      <Avatar class="navbar-item"/>
+    </div>
   </div>
 </template>
 
@@ -11,6 +15,9 @@
 import Hamburger from './components/hamburger'
 import Breadcrumb from './components/breadcrumb'
 import Avatar from './components/avatar'
+import ScreenFull from './components/screenFull'
+import Driver from './components/driver/index'
+
 </script>
 
 <style scoped lang="scss">

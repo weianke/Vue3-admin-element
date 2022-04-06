@@ -1,5 +1,5 @@
 <template>
-  <el-dropdown>
+  <el-dropdown id="avatar">
     <span class="el-dropdown-link"></span>
     <el-avatar shape="square" :size="40" :src="avatar"></el-avatar>
     <template #dropdown>
