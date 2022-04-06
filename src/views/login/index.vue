@@ -33,10 +33,14 @@
 </template>
 
 <script setup>
-import { ref, reactive } from 'vue'
+import { ref, reactive, onMounted } from 'vue'
 import { useStore } from 'vuex'
 import { loginRules } from './loginRule'
 const store = useStore()
+
+onMounted(() => {
+  console.log('store', store)
+})
 
 const loginForm = reactive({
   username: 'admin',
@@ -53,7 +57,7 @@ const onChangePwdType = () => {
 const handleLogin = async () => {
   formRef.value.validate((valid) => {
     if (valid) {
-      store.dispatch('user/login', loginForm.value)
+      store.dispatch('app/login', loginForm)
     } else {
       return false
     }
