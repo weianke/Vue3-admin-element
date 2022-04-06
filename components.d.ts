@@ -28,7 +28,6 @@ declare module 'vue' {
     ElSwitch: typeof import('element-plus/es')['ElSwitch']
     ElTable: typeof import('element-plus/es')['ElTable']
     ElTableColumn: typeof import('element-plus/es')['ElTableColumn']
-    ElTableItem: typeof import('element-plus/es')['ElTableItem']
     SvgIcon: typeof import('./src/components/SvgIcon/index.vue')['default']
   }
 }

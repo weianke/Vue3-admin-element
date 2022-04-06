@@ -8,6 +8,11 @@ function resolve (dir) {
 }
 const webpack = require('webpack')
 module.exports = {
+  publicPath: './',
+  outputDir: 'project',
+  assetsDir: 'static',
+  lintOnSave: process.env.NODE_ENV === 'development',
+  productionSourceMap: false,
   configureWebpack: (config) => {
     config.plugins.push(
       AutoImport({
